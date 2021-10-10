@@ -10,18 +10,15 @@
 body {
   font-family: roboto, sans-serif;
 }
-.btn {
+.btn-light {
   font-weight: 500;
-font-size: 16px;
-line-height: 26px
-text-align: center;
-letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 26px;
 }
 
-.btn-light{
+.btn-light {
   color: #fff;
 }
-
 
 .header {
   background-color: var(--primary-text-color);
@@ -41,8 +38,9 @@ letter-spacing: 0.03em;
 
   color: var(--header-color);
 }
-.menu-link:hover, .menu-link:focus  {
-  color:var(--accent-color);
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
 }
 
 .header-tel {
