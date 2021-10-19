@@ -115,6 +115,22 @@ body {
   font-size: 14px;
   letter-spacing: 0.03;
 }
+
+/* Projects-list */
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.projects-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 .btn {
   width: 145px;
   height: 38px;
