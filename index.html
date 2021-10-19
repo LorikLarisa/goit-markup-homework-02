@@ -5,34 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Шапка сайта-->
     <header>
       <nav class="header-nav">
-        <a class="header-logo" href="/">WebStudio</a>
+        <a class="header-logo" href="/index.html"
+          >Web<span class="header-logo-dark">Studio</span></a
+        >
         <ul class="list menu-list">
-          <li><a class="menu-link" href="">Студия</a></li>
+          <li><a class="menu-link" href="index.html">Студия</a></li>
           <li><a class="menu-link" href="/portfolio.html">Портфолио</a></li>
           <li><a class="menu-link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="list menu-list">
         <li>
-          <a class="header-mail link" href="mailto:info@example.com"
+          <a class="header-link menu-link" href="mailto:info@example.com"
             >info@example.com</a
           >
         </li>
         <li>
-          <a class="header-tel link" href="tel:+380991111111">+380991111111</a>
+          <a class="header-link" href="tel:+380991111111">+380991111111</a>
         </li>
       </ul>
     </header>
     <main>
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button>Заказать услугу</button>
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="header-btn">
+          <span class="text-btn">Заказать услугу</span>
+        </button>
       </section>
       <!--feature-->
       <section>
