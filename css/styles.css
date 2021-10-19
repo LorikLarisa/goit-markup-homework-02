@@ -69,7 +69,7 @@ ul {
 .feature-list-text {
   font-weight: normal;
   font-size: 14px;
-  line: height 1.7;
+  line-height: height 1.7;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -80,6 +80,22 @@ ul {
   letter-spacing: 0.03em;
 
   color: #212121;
+}
+.section-title-img {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.section-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
 
 /* h1 Портфолио */
@@ -96,6 +112,8 @@ ul {
 }
 body {
   font-family: roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03;
 }
 .btn {
   width: 145px;
@@ -110,11 +128,9 @@ body {
   position: absolute;
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
-
+  left: 685px;
+  top: 464px;
   background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 .header-btn :hover {
@@ -178,16 +194,39 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
-  letter-spacing: 0.02em;
   color: #757575;
 }
 .header-link:hover,
 .header-link:focus {
   color: #2196f3;
 }
+.current {
+  color: var(--accent-color);
+}
 /* Текст */
 
 /* Футер */
+footer {
+  background-color: #2f303a;
+}
+.header-logo-light {
+  color: #ffffff;
+}
 .address {
   font-style: normal;
+}
+
+.contacts-address {
+  color: rgba(255, 255, 255, 1);
+  line-height: 1.71;
+}
+.contacts-address:hover {
+  color: var(--accent-color);
+}
+.contacts-link {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
+}
+.contacts-link:hover {
+  color: var(--accent-color);
 }
